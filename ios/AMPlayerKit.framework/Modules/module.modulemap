@@ -1,0 +1,11 @@
+framework module AMPlayerKit {
+  umbrella header "AMPlayerKit.h"
+
+  export *
+  module * { export * }
+}
+
+module AMPlayerKit.Swift {
+    header "AMPlayerKit-Swift.h"
+    requires objc
+}

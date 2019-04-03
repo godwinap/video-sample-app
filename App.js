@@ -41,7 +41,9 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text> */}
         <Video 
-          source={{uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'}}
+          source={{uri: 'https://cdn.cloud.altbalaji.com/content/2017-11/3889-5a18cf486adab/manifest.m3u8',
+          fpsCertificateUrl: `http://api.vodafoneplay.in/licenseproxy/v2/fairplayCertificate/?&content_id=109901&timestamp=${new Date().getTime()}`,
+          fpsDrmToken: 'e1ff151c5380bc67e9ab29c3b9e6410b484e6c4022a181968ef58f278f30e19a'}}
           ref={(ref) => {
             this.player = ref
           }}

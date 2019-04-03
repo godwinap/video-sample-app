@@ -278,12 +278,12 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"",
+					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"",
+					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -297,12 +297,12 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"",
+					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"",
+					"\"$(SRCROOT)/../../ios/AMPlayerKit.framework\"/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
